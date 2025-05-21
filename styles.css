@@ -1,0 +1,29 @@
+.web-annotator-comment {
+  position: absolute;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 10000;
+  max-width: 200px;
+  font-size: 14px;
+  color: #856404;
+}
+
+.web-annotator-comment:hover {
+  background-color: #fff8e1;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.web-annotator-highlight {
+  background-color: #fff3cd;
+  border-bottom: 2px solid #ffeeba;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.web-annotator-highlight:hover {
+  background-color: #fff8e1;
+} 
